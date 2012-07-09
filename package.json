@@ -1,0 +1,16 @@
+{
+    "name": "express-layout-addons"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "async": "*",
+      "hogan.js": "*",
+      "consolidate": "*",
+      "express-layout": "git://github.com/mirkok/express-layout.git",
+      "livelyutils": "git://github.com/livelycode/LivelyUtils.git"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "./lib/layouts.js"
+}
